@@ -10,6 +10,7 @@ These are the programs you need for the dotfiles to work.
 
 ```bash
   yay -S stow fish kitty hyprland waybar wofi visual-studio-code-bin noto-fonts-main noto-fonts-emoji ttf-font-awesome ttf-jetbrains-mono-nerd
+  curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 ```
 
 ## Installation
