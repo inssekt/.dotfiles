@@ -4,15 +4,16 @@
 My personal dotfiles I use for my Arch Linux system.
 
 
+## Requirements
 
+These are the programs you need for the dotfiles to work.
+
+```bash
+  yay -S stow fish kitty hyprland waybar wofi visual-studio-code-bin noto-fonts-main noto-fonts-emoji ttf-font-awesome ttf-jetbrains-mono-nerd
+```
 
 ## Installation
 
-Make sure you have GNU Stow installed
-
-```bash
-  sudo pacman -S stow
-```
 GNU stow is a symlink farm manager.
 Using the command `stow` it will create a symlink from the .dotfiles config folder to your ~/ folder.
 
